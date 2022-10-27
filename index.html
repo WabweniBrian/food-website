@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My minified  CSS version link -->
+    <link rel="stylesheet" href="assets/css/simplified.css">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/Swiper/css/swiper.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Food Website</title>
+</head>
+<body>
+    <!-- Bact to top nutton -->
+    <button class="btn btn-circle bg-white shadow fixed right-none back-to-top-btn" id="backToTop"><i
+            class="fa fa-chevron-up"></i></button>
+
+    <!-------------------------Header------------------------------------ -->
+    <header class="fixed top-none left-none w-100 flex-center-between bg-white shadow">
+        <input type="checkbox" name="" id="menu-bar" hidden>
+        <div class="toggle-btn">
+            <label for="menu-bar" class="fas fa-bars cursor-pointer text-18"></label>
+        </div>
+        <a href="index.html" class="logo capitalize flex-align-center gap-1">
+            <i class="fa fa-utensils primary-color fa-2x"></i>
+            <h1>Resto.</h1>
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icon-list flex-center-center gap-1">
+            <a href="#" class="btn btn-circle btn-circle-sm"><i class="fa fa-heart text-13"></i></a>
+            <a href="#" class="btn btn-circle btn-circle-sm"><i class="fa fa-shopping-cart text-13"></i></a>
+            <a href="#" class="btn btn-circle btn-circle-sm"><i class="fa fa-user text-13"></i></a>
+        </div>
+    </header>
+    <!-------------------------//Header------------------------------------ -->
+
+    <!-------------------------Main------------------------------------ -->
+    <main>
+
+        <!---------------------------------------------------Home Section-------------------------------- -->
+        <section class="home pt-4" id="home">
+            <div class="swiper-container home-slider">
+                <div class="swiper-wrapper  my-4">
+                    <!-- Slide 1 -->
+                    <div class="box-container flex-center-center flex-wrap swiper-slide">
+                        <div class="content">
+                            <p class="text-20 primary-color">Our Special Dish</p>
+                            <h2 class="text-70"> Spicy Noodles</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo labore amet
+                                illo?
+                                Sint
+                                aperiam
+                                fugiat iure corporis asperiores recusandae voluptas molestias ab placeat repudiandae?
+                            </p>
+                            <button class="btn btn-primary my-2 rounded-sm">order now</button>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/home-img-1.png" alt="" class="image">
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="box-container flex-center-center flex-wrap swiper-slide">
+                        <div class="content">
+                            <p class="text-20 primary-color">Our Special Dish</p>
+                            <h2 class="text-70"> fried chicken</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo labore amet
+                                illo?
+                                Sint
+                                aperiam
+                                fugiat iure corporis asperiores recusandae voluptas molestias ab placeat repudiandae?
+                            </p>
+                            <button class="btn btn-primary my-2 rounded-sm">order now</button>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/home-img-2.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="box-container flex-center-center flex-wrap swiper-slide">
+                        <div class="content">
+                            <p class="text-20 primary-color">Our Special Dish</p>
+                            <h2 class="text-70"> hot pizza</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo labore amet
+                                illo?
+                                Sint
+                                aperiam
+                                fugiat iure corporis asperiores recusandae voluptas molestias ab placeat repudiandae?
+                            </p>
+                            <button class="btn btn-primary my-2 rounded-sm">order now</button>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/home-img-3.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <button class="btn btn-circle btn-primary-outlined shadow" id="prev"><i
+                    class="fa fa-chevron-left"></i></button>
+            <button class="btn btn-circle btn-primary-outlined shadow" id="next"><i
+                    class="fa fa-chevron-right"></i></button>
+        </section>
+        <!---------------------------------------------------//Home Section-------------------------------- -->
+
+        <!---------------------------------------------------Dishes Section-------------------------------- -->
+        <section class="dishes pt-6 bg pb-2" id="dishes">
+            <h2 class="text-20 text-center primary-color">our dishes</h2>
+            <h1 class="text-lg text-center">POPULAR DISHES</h1>
+            <div class="box-container flex-center-center flex-wrap mt-2 gap-2">
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/dish-1.png" alt="">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <di class="rating primary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </di mt-1 cartv>
+                    <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                    <button class="btn btn-primary rounded-sm mx-auto">add to cart</button>
+                    <div class="btns">
+                        <button class="btn btn-circle btn-primary-outlined absolute top-none left-none ml-1 mt-1 fav"><i
+                                class="fa fa-heart"></i></button>
+                        <button
+                            class="btn btn-circle btn-primary-outlined absolute top-none right-none mt-1 mr-1 view"><i
+                                class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/dish-2.png" alt="">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <di class="rating primary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </di mt-1 cartv>
+                    <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                    <button class="btn btn-primary rounded-sm mx-auto">add to cart</button>
+                    <div class="btns">
+                        <button class="btn btn-circle btn-primary-outlined absolute top-none left-none ml-1 mt-1 fav"><i
+                                class="fa fa-heart"></i></button>
+                        <button
+                            class="btn btn-circle btn-primary-outlined absolute top-none right-none mt-1 mr-1 view"><i
+                                class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/dish-3.png" alt="">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <di class="rating primary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </di mt-1 cartv>
+                    <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                    <button class="btn btn-primary rounded-sm mx-auto">add to cart</button>
+                    <div class="btns">
+                        <button class="btn btn-circle btn-primary-outlined absolute top-none left-none ml-1 mt-1 fav"><i
+                                class="fa fa-heart"></i></button>
+                        <button
+                            class="btn btn-circle btn-primary-outlined absolute top-none right-none mt-1 mr-1 view"><i
+                                class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/dish-4.png" alt="">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <di class="rating primary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </di mt-1 cartv>
+                    <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                    <button class="btn btn-primary rounded-sm mx-auto">add to cart</button>
+                    <div class="btns">
+                        <button class="btn btn-circle btn-primary-outlined absolute top-none left-none ml-1 mt-1 fav"><i
+                                class="fa fa-heart"></i></button>
+                        <button
+                            class="btn btn-circle btn-primary-outlined absolute top-none right-none mt-1 mr-1 view"><i
+                                class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/dish-5.png" alt="">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <di class="rating primary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </di mt-1 cartv>
+                    <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                    <button class="btn btn-primary rounded-sm mx-auto">add to cart</button>
+                    <div class="btns">
+                        <button class="btn btn-circle btn-primary-outlined absolute top-none left-none ml-1 mt-1 fav"><i
+                                class="fa fa-heart"></i></button>
+                        <button
+                            class="btn btn-circle btn-primary-outlined absolute top-none right-none mt-1 mr-1 view"><i
+                                class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/dish-6.png" alt="">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <di class="rating primary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </di mt-1 cartv>
+                    <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                    <button class="btn btn-primary rounded-sm mx-auto">add to cart</button>
+                    <div class="btns">
+                        <button class="btn btn-circle btn-primary-outlined absolute top-none left-none ml-1 mt-1 fav"><i
+                                class="fa fa-heart"></i></button>
+                        <button
+                            class="btn btn-circle btn-primary-outlined absolute top-none right-none mt-1 mr-1 view"><i
+                                class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------------------//Dishes Section-------------------------------- -->
+
+        <!---------------------------------------------------About Section-------------------------------- -->
+        <section class="about pt-6" id="about">
+            <h2 class="text-20 text-center primary-color">about us</h2>
+            <h1 class="text-lg text-center">why choose us</h1>
+            <div class="box-container flex-center-center flex-wrap mt-2 gap-2">
+                <div class="image">
+                    <img src="assets/images/about-img.png" alt="" class="w-100 p-2">
+                </div>
+                <div class="content">
+                    <h2 class="text-lg">Best Food In The Country</h2>
+                    <p class="my-2">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti
+                        Corporis Quaerat
+                        Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut
+                        Soluta Odio Corporis Nihil!</p>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Aperiam, Nemo. Sit Porro Illo Eos
+                        Cumque Deleniti Iste Alias, Eum Natus.</p>
+                    <div class="btns flex-center-center gap-1 my-2">
+                        <button class="p-2 border bg rounded-sm w-100"><i
+                                class="fa fa-shipping-fast primary-color fa-2x"></i>
+                            Free
+                            Delivery</button>
+                        <button class="p-2 border bg rounded-sm w-100"><i
+                                class="fa fa-dollar-sign primary-color fa-2x"></i>
+                            Easy
+                            Payments</button>
+                        <button class="p-2 border bg rounded-sm w-100"><i class="fa fa-headset primary-color fa-2x"></i>
+                            24/7
+                            Service</button>
+                    </div>
+                    <button class="btn btn-primary my-2 rounded-sm my-2 mx-auto">learn more</button>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------------------//About Section-------------------------------- -->
+
+
+        <!---------------------------------------------------Menu Section-------------------------------- -->
+        <section class="menu pt-6 bg pb-2" id="menu">
+            <h2 class="text-20 text-center primary-color">our menu</h2>
+            <h1 class="text-lg text-center">today's speciality</h1>
+            <div class="box-container flex-center-center flex-wrap mt-2 gap-2">
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-1.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-2.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-3.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-4.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-5.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-6.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-7.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-8.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="box p-2 border shadow bg-white text-center relative">
+                    <img src="assets/images/menu-9.jpg" alt="" class="p-1 rounded">
+                    <h1 class="text-22 mb-1">tasty food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas perspiciatis iure earum sed
+                        officia magnam saepe quia facere optio?</p>
+                    <div class="flex-align-center gap-2 mt-1 cart">
+                        <h2 class="text-25 secondary-color mt-1">$15.99</h2>
+                        <button class="btn btn-primary rounded-sm">add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!---------------------------------------------------//Menu Section-------------------------------- -->
+
+
+        <!---------------------------------------------------Review Section-------------------------------- -->
+        <section class="review pt-6 pb-3" id="review">
+            <h2 class="text-20 text-center primary-color">customers' reviews</h2>
+            <h1 class="text-lg text-center">what people say</h1>
+            <div class="swiper-container review-slider pt-3">
+                <div class="box-container swiper-wrapper">
+
+
+                    <div class="box  border shadow rounded-sm p-2 swiper-slide">
+                        <div class="flex-align-center gap-2">
+                            <img src="assets/images/pic-2.png" alt="" class="profile-avatar-lg">
+                            <h2 class="text-20">john doe</h2>
+                        </div>
+                        <div class="info mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dicta natus fugit
+                                sunt
+                                quasi exercitationem, vero tempore non ipsam voluptatum praesentium pariatur sed qui
+                                neque
+                                inventore porro magnam facilis harum.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box  border shadow rounded-sm p-2 swiper-slide" p-2>
+                        <div class="flex-align-center gap-2">
+                            <img src="assets/images/pic-3.png" alt="" class="profile-avatar-lg">
+                            <h2 class="text-20">john doe</h2>
+                        </div>
+                        <div class="info mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dicta natus fugit
+                                sunt
+                                quasi exercitationem, vero tempore non ipsam voluptatum praesentium pariatur sed qui
+                                neque
+                                inventore porro magnam facilis harum.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box border shadow rounded-sm p-2 swiper-slide">
+                        <div class="flex-align-center gap-2">
+                            <img src="assets/images/pic-4.png" alt="" class="profile-avatar-lg">
+                            <h2 class="text-20">john doe</h2>
+                        </div>
+                        <div class="info mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dicta natus fugit
+                                sunt
+                                quasi exercitationem, vero tempore non ipsam voluptatum praesentium pariatur sed qui
+                                neque
+                                inventore porro magnam facilis harum.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box  border shadow rounded-sm p-2 swiper-slide">
+                        <div class="flex-align-center gap-2">
+                            <img src="assets/images/pic-1.png" alt="" class="profile-avatar-lg">
+                            <h2 class="text-20">john doe</h2>
+                        </div>
+                        <div class="info mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dicta natus fugit
+                                sunt
+                                quasi exercitationem, vero tempore non ipsam voluptatum praesentium pariatur sed qui
+                                neque
+                                inventore porro magnam facilis harum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------------------//Review Section-------------------------------- -->
+
+
+        <!---------------------------------------------------Order Section-------------------------------- -->
+        <section class="order pt-6 bg pb-3" id="order">
+            <h2 class="text-20 text-center primary-color">order now</h2>
+            <h1 class="text-lg text-center">free and fast</h1>
+
+            <div class="form max-w-700 mx-auto bg-white shadow border rounded-sm p-2 mt-2">
+                <form action="" class="flex gap-2 flex-wrap">
+                    <div class="left">
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" id="name" class="form-control mb-1"
+                            placeholder="Enter your name..">
+                        <label for="orderName">Your Order</label>
+                        <input type="text" name="orderName" id="orderName" class="form-control mb-1"
+                            placeholder="Enter food name..">
+                        <label for="orderNumber">How Many</label>
+                        <input type="number" name="orderNumber" id="orderNumber" class="form-control mb-1"
+                            placeholder="How many orders..">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" class="form-control mb-1"
+                            placeholder="Email address..">
+                    </div>
+
+                    <div class="right">
+                        <label for="number">Your Number</label>
+                        <input type="number" name="number" id="number" class="form-control mb-1"
+                            placeholder="Enter your number..">
+                        <label for="food">Additional Food</label>
+                        <input type="text" name="food" id="food" class="form-control mb-1"
+                            placeholder="Extra with food..">
+                        <label for="date">Your Order</label>
+                        <input type="datetime-local" name="date" id="date" class="form-control mb-1">
+                        <label for="message">Your message</label>
+                        <textarea type="email" name="message" id="message" class="form-control mb-1"
+                            placeholder="Your message.."></textarea>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <!---------------------------------------------------//Order Section-------------------------------- -->
+
+    </main>
+    <!-------------------------//Main------------------------------------ -->
+
+    <!-------------------------Footer------------------------------------ -->
+    <footer>
+        <div class="content pt-2">
+            <div class="box-container flex flex-wrap">
+                <div class="box ">
+                    <h2 class="text-25 my-2">locations</h2>
+                    <div class="links">
+                        <a href="#">india</a>
+                        <a href="#">japan</a>
+                        <a href="#">russia</a>
+                        <a href="#">USA</a>
+                        <a href="#">france</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h2 class="text-25 my-2">Quick Links</h2>
+                    <div class="links">
+                        <a href="#home">home</a>
+                        <a href="#dishes">dishes</a>
+                        <a href="#about">about</a>
+                        <a href="#menu">menu</a>
+                        <a href="#review">review</a>
+                        <a href="#order">order</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h2 class="text-25 my-2">contact info</h2>
+                    <div class="links">
+                        <a href="tel:+256-775-358738">+256-775-358738</a>
+                        <a href="tel:+256-752-870867">+256-752-870867</a>
+                        <a href="mailto:wabwenib66@gmail.com">wabwenib66@gmail.com</a>
+                        <a href="mailto:wabzbraize66@gmail.com">wabzbraize66@gmail.com</a>
+                        <a href="#">Kampala, Uganda</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h2 class="text-25 my-2">Follow Us</h2>
+                    <div class="links">
+                        <a href="#">facebook</a>
+                        <a href="#">twitter</a>
+                        <a href="#">instagram</a>
+                        <a href="#">linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center pt-2">Created By <span class="primary-color">Wabweni Brian</span> | All Rights
+                Reserved</p>
+        </div>
+    </footer>
+    <!-------------------------//Footer------------------------------------ -->
+
+    <!-- Swiper -->
+    <script src="assets/Swiper/js/swiper.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
